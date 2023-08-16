@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript</title>
+</head>
+<body>
+    <script>
+        alert("familia ")
+    </script>
+    <form name="contact">
+        <h1>endereço</h1>
+
+        <label for="nome">nome: </label>
+        <input type="text" id="nomeid" placeholder="nome" ="required" name="nome"/>
+ <label for="fone">telefone:</label>
+
+        <input type="tel" id="foneid"
+         placeholder="(xx)xxxx-xxxx" required="required" name="fone"/>
+         <label for="fone">telefone</label>
+
+         <input name="cep" type="text" id="cep" value="" size="10" maxlength="9"
+         onblur="pesquisacep(this.value);" tequired="required"/>
+         <label>cep</label>
+
+         <input name="rua" type="text" id="rua" value="" size="60"  tequired="required"/>
+         <label>logradouro</label>
+
+         <input name="bairro" type="text" id="bairro" value="" size="40"  tequired="required"/>
+         <label>bairro</label>
+
+         <input name="cidade" type="text" id="cidade" value="" size="40"  tequired="required"/>
+         <label>cidade</label>
+
+         <input name="uf" type="text" id="uf" value="" size="60"  tequired="required"/>
+         <label>uf</label>
+       
+        <textarea placeholder="Deixe sua opinião"></textarea>
+
+        <input type="submit" class="enviar" onclick="enviar()"value="enviar"
+
+
+
+</body>
+</html>
